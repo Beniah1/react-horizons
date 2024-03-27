@@ -1,13 +1,10 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Button from "react-bootstrap/Button";
+import React from 'react';
+import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
 import "./App.css";
 
 function NikeShoesNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar1 shadow-sm">
+    <Navbar collapseOnSelect expand="lg" className="navbar1 shadow-sm" fixed="top">
       <Container>
         <Navbar.Brand href="#home" className="text-white">
           Nikey Shoes
